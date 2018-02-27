@@ -1,3 +1,5 @@
 [user]
 	email = gustavo@padovan.org
 	name = Gustavo Padovan
+[alias]
+	l1 = log --oneline
