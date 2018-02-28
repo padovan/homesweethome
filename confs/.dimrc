@@ -1,0 +1,20 @@
+# Sample configuration file for dim. Place this at $HOME/.dimrc or point
+# DIM_CONFIG environment variable to it.
+#
+# Defaults are in the comments below.
+
+# Prefix for the repo directories. The prefix will contain
+# $DIM_REPO, drm-tip, maintainer-tools, etc.
+DIM_PREFIX=$HOME/p/linux-trees
+
+# Name of the main maintainer repo under $DIM_PREFIX.
+DIM_REPO=drm-misc
+
+# Mail User Agent supporting a subset of mutt(1) command line options:
+# [-s subject] [-i file] [-c cc-addr] to-addr [...]
+DIM_MUA=mutt
+
+# Command to run after dim apply
+#DIM_POST_APPLY_ACTION=
+
+DIM_GPG_KEYID=1F381934
