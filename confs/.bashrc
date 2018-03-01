@@ -6,8 +6,10 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # User specific aliases and functions
+alias cal='cal -y '
 alias ls='ls --color '
 alias l='ls -lh '
+alias vim='vim -p '
 
 export MAKE_OPTS=-j$(($(nproc) + 1))
 
