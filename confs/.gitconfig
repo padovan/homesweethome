@@ -3,3 +3,11 @@
 	name = Gustavo Padovan
 [alias]
 	l1 = log --oneline
+[sendemail]
+	from = Gustavo Padovan <gustavo@padovan.org>
+	smtpserver = smtp.gmail.com
+	smtpuser = gfpadovan@gmail.com
+	smtpencryption = tls
+	smtppass = password
+	chainreplyto = false
+	smtpserverport = 587

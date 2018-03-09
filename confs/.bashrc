@@ -10,6 +10,7 @@ alias cal='cal -y '
 alias ls='ls --color '
 alias l='ls -lh '
 alias vim='vim -p '
+alias virty='ssh virty -t tmux '
 
 export MAKE_OPTS=-j$(($(nproc) + 1))
 
