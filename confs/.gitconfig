@@ -8,6 +8,6 @@
 	smtpserver = smtp.gmail.com
 	smtpuser = gfpadovan@gmail.com
 	smtpencryption = tls
-	smtppass = password
+	smtppass = wgzhljjpnocchvmx
 	chainreplyto = false
 	smtpserverport = 587
